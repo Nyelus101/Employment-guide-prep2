@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
-// import Login from './components/pages/Login';
-// import SignoutPage from './components/pages/SignoutPage';
+import Login from './components/pages/Login';
+import SignoutPage from './components/pages/SignoutPage';
 
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/products' element={<Products />} />
           <Route path='/sign-up' element={<SignUp />} />
-          {/* <Route path='/login' element={<Login />} />
-          <Route path='/signout' element={<SignoutPage />} /> */}
+          <Route path='/login' element={<Login />} />
+          <Route path='/signout' element={<SignoutPage />} />
         </Routes>
       </Router>
     </>
