@@ -24,6 +24,12 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+
+  const handleLogout = () => {
+    localStorage.removeItem('isUserSignedIn'); // Remove the 'isUserSignedIn' key from localStorage
+    window.location.reload(); // Refresh the page to reflect the logout
+  };
+
   return (
     <>
       <nav className='navbar'>
@@ -59,7 +65,11 @@ function Navbar() {
                 Products
               </Link>
             </li>
-
+            <li className='nav-item'>
+              <button className='nav-links' onClick={handleLogout}>
+                Logout
+              </button>
+            </li>
             <li>
               <Link
                 to='/sign-up'

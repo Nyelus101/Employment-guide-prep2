@@ -1,12 +1,12 @@
 //MAIN
 import React, { useContext } from 'react';
-import UserContext from '../../UserContext';
+// import UserContext from '../../UserContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import './SignoutPage.scss';
 
-function SignoutPage() {
-    const { isUserSignedIn, setIsUserSignedIn } = useContext(UserContext);
+function SignoutPage({ setIsUserSignedIn }) {
+    // const { isUserSignedIn, setIsUserSignedIn } = useContext(UserContext);
 
     const handleSignIn = () => {
         setIsUserSignedIn(true); // Set isUserSignedIn to true
@@ -18,7 +18,7 @@ function SignoutPage() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="myLeftCtn">
-                            <form className="myForm text-center">
+                            <form className="myForm text-center" onSubmit={handleSignIn}>
                                 <header>Create new account</header>
                                 <div className="form-group items">
                                     <i className="fas fa-user"></i>
@@ -42,7 +42,7 @@ function SignoutPage() {
                                     </label>
                                 </div>
                       
-                                <input type="submit" className="butt" value="Sign Up" onSubmit={handleSignIn}/>
+                                <input type="submit" className="butt" value="Sign Up" />
                                 {/* <Link to="/">SignUp/Login</Link> */}
                                 
                             </form>
