@@ -66,7 +66,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <button className='nav-links' onClick={handleLogout}>
+              <button className='nav-links nav-links-mobile' onClick={handleLogout}>
                 Logout
               </button>
             </li>
@@ -80,6 +80,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          {button && <button className='btn btn--medium btn--outline btn-mobile' onClick={handleLogout}>Logout</button>}
           {button && <button className='btn btn--medium btn--outline btn-mobile'>SIGN UP</button>}
         </div>
       </nav>
