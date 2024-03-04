@@ -81,7 +81,7 @@ function Navbar() {
             </li>
           </ul>
           {button && <button className='btn btn--medium btn--outline btn-mobile' onClick={handleLogout}>Logout</button>}
-          {button && <button className='btn btn--medium btn--outline btn-mobile'>SIGN UP</button>}
+          {/* {button && <button className='btn btn--medium btn--outline btn-mobile'>SIGN UP</button>} */}
         </div>
       </nav>
     </>
