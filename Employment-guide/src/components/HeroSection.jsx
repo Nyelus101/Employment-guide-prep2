@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.css';
-import { Button } from './Button';
+//import '../App.css';
+//import { Button } from './Button';
 import './HeroSection.css';
-import './Button1.css';
-import './Button.css';
+// import './Button1.css';
+// import './Button.css';
 
 function HeroSection() {
   return (
@@ -13,14 +13,14 @@ function HeroSection() {
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <button
-          className='btn btn--outline btn--large'
+          className='btn--outline btn--medium'
           // className='btn--outline'
           // buttonSize='btn--large'
         >
           GET STARTED
         </button>
         <button
-          className='btn btn--primary btn--large'
+          className='btn--primary btn--medium'
           // buttonStyle='btn--primary'
           // buttonSize='btn--large'
           // onClick={console.log('hey')}

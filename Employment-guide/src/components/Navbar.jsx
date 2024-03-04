@@ -35,7 +35,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
+            FBN <i>prep</i>
             <i className='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -53,7 +53,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Quiz-prep
               </Link>
             </li>
             <li className='nav-item'>
@@ -62,15 +62,15 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Study Materials
               </Link>
             </li>
-            <li className='nav-item'>
-              <button className='nav-links nav-links-mobile' onClick={handleLogout}>
+            <li>
+              <button className='btn--outline btn--large nav-links-mobile ' onClick={handleLogout}>
                 Logout
               </button>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to='/sign-up'
                 className='nav-links-mobile'
@@ -78,9 +78,9 @@ function Navbar() {
               >
                 Sign Up
               </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <button className='btn btn--medium btn--outline btn-mobile' onClick={handleLogout}>Logout</button>}
+          {button && <button className='btn--medium btn--outline' onClick={handleLogout}>Logout</button>}
           {/* {button && <button className='btn btn--medium btn--outline btn-mobile'>SIGN UP</button>} */}
         </div>
       </nav>
