@@ -10,35 +10,35 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/GMAT-focus.jpg.webp'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              label='Gmat Past questions'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/math.jpeg'
               text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              label='Maths questions'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/secp.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              label='Service Procedures'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/current-affairs.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              label='Nigerian Current Affairs'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/bank-logo.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              label='History of FBN'
               path='/sign-up'
             />
           </ul>

@@ -6,7 +6,7 @@ import Cards from '../Cards';
 export default function Products() {
   return (
     <>
-      <h1 className='products'>Study Library</h1>
+      <h1 className='products'>THE Library</h1>
       <Cards />
     </>
   );
