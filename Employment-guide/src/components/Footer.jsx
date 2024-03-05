@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the FBN Adventure newsletter to receive updates on FBN recruitment
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -39,7 +39,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <Link to='/'>Location</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -47,7 +47,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
+            <Link to='/'>Tutors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
@@ -64,11 +64,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              FBN-<i>prep</i>
               <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2020</small>
+          <small className='website-rights'>NEDU & UCHE © 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

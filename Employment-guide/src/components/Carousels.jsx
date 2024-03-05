@@ -6,36 +6,37 @@ import Carousel from 'react-bootstrap/Carousel';
 function Carousels() {
   return (
     <Carousel>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
         {/* <ExampleCarouselImage text="First slide" /> */}
         <img
           className="d-block w-100"
-          src="../../public/images/dark-bg.jpg.jpg"
+          src="../../images/dark-bg.jpg.jpg"
           alt="First slide"
-          height={650}
+          style={{ width: '100%', height: '100%' }}
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
       <img
           className="d-block w-100"
-          src="../../public/images/blue-bg.jpg"
+          src="../../images/math.jpeg"
           alt="First slide"
+          style={{ width: '100%', height: '100%' }}
         />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
       <img
           className="d-block w-100"
-          src="../../public/images/GMAT-focus.jpg.webp"
+          src="../../images/GMAT-focus.jpg.webp"
           alt="First slide"
-          height={650}
+          style={{ width: '100%', height: '100%' }}
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>
@@ -44,11 +45,12 @@ function Carousels() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
       <img
           className="d-block w-100"
-          src="../../public/images/blue-bg.jpg"
+          src="../../images/secp.jpg"
           alt="First slide"
+          style={{ width: '100%', height: '100%' }}
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>
